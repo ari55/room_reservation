@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#AF6BD1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="40"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Choissir le nuits: "
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/prix_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="$ 00"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_dialog_set"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:src="@drawable/icon_pay" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="30"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_decrement"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="-"
+            android:textSize="60dp" />
+
+
+        <TextView
+            android:id="@+id/qty_nuits"
+            android:layout_width="0px"
+
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btn_increment"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="+"
+            android:textSize="60dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="30"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_annuler"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="Annuler"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_reserve"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:text="Reserve"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>

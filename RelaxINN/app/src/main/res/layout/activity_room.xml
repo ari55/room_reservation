@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.RoomActivity">
+
+    <TextView
+        android:id="@+id/titre_chambre"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:background="#47518C"
+
+        android:gravity="center"
+        android:textColor="#10143D"
+        android:textSize="25sp"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/img_container"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="30"
+        ></LinearLayout>
+
+    <TextView
+        android:id="@+id/prix_par_nuit"
+        android:text="Prix par nuite : "
+        android:background="#47518C"
+        android:textColor="#E91E63"
+        android:layout_width="match_parent"
+        android:typeface="monospace"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="40"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/sv_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/sv_container_services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#97E91E63"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#7CF44336"
+                    android:gravity="center"
+                    android:text="Services"
+                    android:textColor="#3F51B5"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/sv_container_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="10"
+        android:background="#47518C"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_add_favorites"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="ajouter a favorites" />
+
+        <Button
+            android:id="@+id/choisir"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="choisir" />
+    </LinearLayout>
+</LinearLayout>

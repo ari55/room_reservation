@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="PROFIL" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:id="@+id/profil_reservation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_linearlayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESERVATION" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/derniere_recherche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/border_linearlayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DERNIERE RECHERCHE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liste_prefere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/border_linearlayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LISTES " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/commentaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/border_linearlayout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMMENTAIRE" />
+        </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:background="@drawable/border_login"
+                android:layout_height="wrap_content"
+                android:text="CONFIG" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#7FDD4C"
+            android:background="@drawable/border_login"
+            android:text="LOGOUT"/>
+    </LinearLayout>
+</LinearLayout>

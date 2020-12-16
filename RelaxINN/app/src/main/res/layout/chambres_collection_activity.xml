@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#47518C"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="Liste de chambres disponibles"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#E1000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#AECDDC39"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:text="info chambre" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="single lit" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:shadowColor="#FFFFFF"
+            android:text="double lit" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="15" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:background="#77FFEB3B"
+        android:id="@+id/lv_chambres_collection"
+        android:layout_width="match_parent"
+        android:layout_height="800dp" />
+
+</LinearLayout>

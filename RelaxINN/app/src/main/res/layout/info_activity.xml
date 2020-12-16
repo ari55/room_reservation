@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="Votre Hotel"
+    android:gravity="center"
+    android:background="@drawable/border_linearlayout"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:background="@drawable/border_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et nunc odio. Cras eget sapien vel ante vulputate lobortis vitae vel ex. Curabitur mattis eleifend justo ac auctor. Curabitur eu iaculis risus, in tempus dui. Quisque ac semper ex. Aenean ut lectus urna. Praetincidunt fringilla justo. Vestibulum non eros quis neque interdum tempor eget at nisl. Phasellus nec ultrices ante. Pellentesque ac urna eget ipsum euismod finibus. Quisque mattis consequat neque, vestibulum gravida enim dapibus mattis. Sed a tortor pellentesque, dictum urna quis, gravida leo. Aenean tempor mi vel enim hendrerit consequat eu vitae magna. Vestibulum diam purus, facilisis in elit in, scelerisque laoreet ipsum. Duis et diam nec ex eleifend ultricies. In blandit vel augue non cursus. Donec posuere vulputate velit vitae ultrices.
+
+Nullam vel cursus justo. Donec viverra quam nec tristique dignissim. Sed enim neque, consectetur vitae est vitae, elementum lobortis libero. Duis pharetra libero nisl, ullamcorper pellentesque elit malesuada non. Nam ultricies lorem a leo consequat, et sodales nibh molestie. Etiam eleifend lacinia sodales. Suspendisse ut egestas magna. Praesent rutrum augue sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia ornare dolor, a rhoncus libero placerat consectetur. Nulla facilisi. Ut ullamcorper ultrices vulputate. Sed sit amet convallis tortor. Integer ut ex quam. Nullam commodo tempus sapien eu venenatis."/>
+    <TextView
+        android:id="@+id/info_retour_menu"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Retour Au Menu"
+        android:gravity="center"
+        android:background="@drawable/border_linearlayout"/>
+</LinearLayout>
